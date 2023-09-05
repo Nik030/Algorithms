@@ -49,30 +49,30 @@
 
 
   //3
-  class Stack {
-    constructor() {
-      this.items = [];
-    }
-    push(item) {
-      this.items[this.items.length] = item;
-    }
-    isEmpty() {
-      return this.items.length == 0;
-    }
-    pop() {
-      if (!this.isEmpty()) {
-        const poppedItem = this.items[this.items.length - 1];
-        this.items.length = this.items.length - 1;
-        return poppedItem;
-      } else {
-        throw new Error("pop from an empty stack");
-      }
-    }
-  }
+//   class Stack {
+//     constructor() {
+//       this.items = [];
+//     }
+//     push(item) {
+//       this.items[this.items.length] = item;
+//     }
+//     isEmpty() {
+//       return this.items.length == 0;
+//     }
+//     pop() {
+//       if (!this.isEmpty()) {
+//         const poppedItem = this.items[this.items.length - 1];
+//         this.items.length = this.items.length - 1;
+//         return poppedItem;
+//       } else {
+//         throw new Error("pop from an empty stack");
+//       }
+//     }
+//   }
   
-  const stack = new Stack();
-  stack.push(5);
-  stack.push(10);
-  stack.push(15);
+//   const stack = new Stack();
+//   stack.push(5);
+//   stack.push(10);
+//   stack.push(15);
   
   
